@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.11"
-  version: "0.1.5"
+  version: "0.2.0"
 
 package:
   name: arm-adapt
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/arm-adapt/arm_adapt-${{ version }}.tar.gz
-  sha256: edbb88e2eff0850549f9bd2470895af6692361065f3bc73b9b931e0cb93ef8eb
+  sha256: 7bf68c3cde5d68258f9b1758d80458fd64254414b2f0b0a4d8094aaabb4c908e
 
 build:
   number: 0
